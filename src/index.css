@@ -21,3 +21,13 @@
       transform: translateX(0);
     }
   }
+
+@layer utilities {
+  .animate-scroll {
+    animation: slideLeft 30s linear infinite;
+  }
+
+  .animate-scroll:hover {
+    animation-play-state: paused;
+  }
+}

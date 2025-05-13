@@ -10,10 +10,10 @@ function Policy() {
         <header className="bg-gray-50 p-8 text-left">
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div>
-              <h1 className="text-lg md:text-xl lg:text-2xl font-bold text-[#043873]">
+              <h1 className="text-lg md:text-xl lg:text-2xl font-bold text-[#001420]">
                 We Advise Policy Makers
               </h1>
-              <p className="mt-4 text-xl md:text-2xl text-[#043873]">
+              <p className="mt-4 text-xl md:text-2xl text-[#001420]">
                 Econometer Research Center advises governments and development
                 partners in programme and strategy design and implementation.
               </p>
@@ -40,8 +40,8 @@ function Policy() {
         </header>
 
         <section className="flex flex-col md:flex-row gap-8 justify-center bg-gray-100 p-8">
-          <h2 className="text-2xl md:text-3xl text-[#043873]">Why work with us?</h2>
-          <ul className="list-disc mt-4 space-y-2 text-sm md:text-base text-[#043873]">
+          <h2 className="text-2xl md:text-3xl text-[#001420]">Why work with us?</h2>
+          <ul className="list-disc mt-4 space-y-2 text-sm md:text-base text-[#001420]">
             <li>We understand the context</li>
             <li>We can mobilise rapidly</li>
             <li>We have the networks</li>
@@ -67,20 +67,20 @@ function Policy() {
         </section>
 
         <section className="flex flex-col md:flex-row bg-white p-8 gap-8 items-center justify-center">
-          <div className="flex bg-[#043873] items-center justify-center rounded w-full md:w-1/2 h-56">
+          <div className="flex bg-[#001420] items-center justify-center rounded w-full md:w-1/2 h-56">
             <h3 className="text-lg md:text-xl font-semibold text-white text-center p-4">
               Highlights of our work in this area include:
             </h3>
           </div>
 
-          <ul className="mt-4 space-y-2 text-sm md:text-base font-bold list-disc text-[#043873] w-full md:w-auto">
+          <ul className="mt-4 space-y-2 text-sm md:text-base font-bold list-disc text-[#001420] w-full md:w-auto">
             <li>
               Input to the Design of Rwanda’s Covid-19 Economics Recovery Fund
               (2020)
             </li>
             <li>
               Design and Implementation of Wholegrain School Feeding Project for{" "}
-              <a href="#" className="text-[#043873] underline">
+              <a href="#" className="text-[#001420] underline">
                 Rockefeller Foundation (2020)
               </a>
             </li>

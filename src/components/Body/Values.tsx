@@ -12,33 +12,33 @@ const Morals: React.FC = () => {
 
   const moralsData: Moral[] = [
     {
-      title: 'Impact Oriented',
+      title: 'Excellence',
       description:
-        'We are dedicated to making a significant impact through our services, ensuring that our partners achieve their goals effectively and efficiently. Our focus is on delivering measurable results that enhance the quality of life for the communities we serve.',
-      link: 'Read more ',
-    },
-    {
-      title: 'Participation',
-      description:
-        'We believe in the power of collaboration and actively involve our clients in the decision-making process. By fostering a participatory approach, we empower our clients to take ownership of their challenges and solutions, leading to more sustainable outcomes.',
-      link: 'Read more ',
-    },
-    {
-      title: 'Team Work',
-      description:
-        'Our success is built on teamwork, where diverse talents come together to create innovative solutions. We value each team member’s contribution and promote a culture of mutual respect and support, ensuring that we achieve our objectives collectively.',
+        'We are committed to delivering exceptional service and maintaining the highest standards in luxury real estate. Our attention to detail and dedication to quality ensures that every property we represent meets the most discerning standards.',
       link: 'Read more ',
     },
     {
       title: 'Integrity',
       description:
-        'Integrity is at the core of our operations. We adhere to the highest ethical standards, ensuring transparency and accountability in all our dealings. Our commitment to honesty builds trust with our partners and clients, fostering long-lasting relationships.',
+        'We conduct our business with unwavering honesty and transparency. Our clients trust us with their most significant investments, and we honor that trust through ethical practices and clear communication in all our dealings.',
       link: 'Read more ',
     },
     {
-      title: 'Excellence',
+      title: 'Client-Centric',
       description:
-        'We strive for excellence in everything we do. Our commitment to quality drives us to continuously improve our services and processes. We set high standards for ourselves and work diligently to exceed the expectations of our clients and stakeholders.',
+        'We prioritize our clients\' needs and aspirations above all else. By understanding their unique requirements and preferences, we provide personalized service that exceeds expectations and creates lasting relationships.',
+      link: 'Read more ',
+    },
+    {
+      title: 'Innovation',
+      description:
+        'We embrace modern technology and innovative approaches to showcase luxury properties. Our forward-thinking methods ensure that we stay ahead in the competitive real estate market while providing cutting-edge solutions to our clients.',
+      link: 'Read more ',
+    },
+    {
+      title: 'Local Expertise',
+      description:
+        'Our deep understanding of Kigali\'s luxury real estate market sets us apart. We combine local knowledge with global standards to provide unmatched insights and opportunities for our clients in Rwanda\'s most prestigious neighborhoods.',
       link: 'Read more ',
     },
   ];
@@ -64,7 +64,7 @@ const Morals: React.FC = () => {
             initial={{ y: -50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.2, duration: 0.5 }}
-            className="text-4xl font-bold text-[#043873] mb-2"
+            className="text-4xl font-bold text-[#001420] mb-2"
           >
             Our Values
           </motion.h2>
@@ -74,7 +74,7 @@ const Morals: React.FC = () => {
             transition={{ delay: 0.4, duration: 0.5 }}
             className="text-gray-500 mb-12"
           >
-            We provide both technical assistance and statistical consultancy to our clients.
+            The principles that guide our commitment to luxury real estate excellence
           </motion.p>
 
           <motion.div
@@ -86,23 +86,23 @@ const Morals: React.FC = () => {
             {moralsData.map((moral, index) => (
               <motion.div
                 key={index}
-                onClick={() => handleMoralClick(moral)} // Trigger popup on click
+                onClick={() => handleMoralClick(moral)}
                 initial={{ y: 50, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.2 * index, duration: 0.5 }}
                 whileHover={{ scale: 1.05 }}
                 className="bg-white border border-gray-200 rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow cursor-pointer"
               >
-                <h3 className="text-xl font-semibold text-[#043873] mb-4">{moral.title}</h3>
+                <h3 className="text-xl font-semibold text-[#001420] mb-4">{moral.title}</h3>
                 <p className="text-gray-700 text-l mb-6">
                   {moral.description.slice(0, 70)}{moral.description.length > 20 ? '...' : ''}
                 </p>
                 <motion.a
                   href="#"
-                  className="text-[#043873] hover:underline"
+                  className="text-[#001420] hover:underline"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
-                  onClick={() => handleMoralClick(moral)} // Trigger popup on click
+                  onClick={() => handleMoralClick(moral)}
                 >
                   {moral.link}
                 </motion.a>
@@ -113,13 +113,13 @@ const Morals: React.FC = () => {
       </motion.section>
 
       {selectedMoral && (
-         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50"> 
-         <div className="bg-white p-6 rounded-lg shadow-lg h-fit w-[55%]"> 
-           <h3 className="text-xl font-semibold text-[#043873] mb-4">{selectedMoral.title}</h3>
-           <p className="text-gray-700 mb-6">{selectedMoral.description}</p>
-           <button onClick={handleClosePopup} className="text-red-500">Close</button>
-         </div>
-       </div>
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50"> 
+          <div className="bg-white p-6 rounded-lg shadow-lg h-fit w-[55%]"> 
+            <h3 className="text-xl font-semibold text-[#001420] mb-4">{selectedMoral.title}</h3>
+            <p className="text-gray-700 mb-6">{selectedMoral.description}</p>
+            <button onClick={handleClosePopup} className="text-red-500">Close</button>
+          </div>
+        </div>
       )}
     </>
   );

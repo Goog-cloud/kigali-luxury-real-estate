@@ -10,16 +10,16 @@ function AboutUs() {
     <main className="flex-grow items-center justify-center pt-10 space-y-10">
       <section className="py-8 bg-white text-center">
         <div className="max-w-4xl mx-auto px-4">
-        
           <div className="space-y-8">
             <p className="text-left text-gray-700 leading-relaxed text-xl">
-              <span className="font-bold">Econometer Research Center (ERC)</span> is a rapidly growing Africa-based
-              research and advisory firm, established in 2020, specializing in
-              research, impact evaluation, baseline studies, scoping analysis,
-              and policy advisory services. ERC delivers high-quality diagnostic research
-              and strategic services to governments, businesses, and non-profit
-              organizations. We help clients by leveraging data to guide
-              sustainable, resilient, and strategic decisions.
+              <span className="font-bold">Kigali Luxury Real Estate</span> is Rwanda's premier luxury property
+              consultancy, specializing in high-end residential and commercial real estate
+              in Kigali's most prestigious neighborhoods. Since our establishment, we have
+              been at the forefront of connecting discerning clients with exceptional
+              properties that embody the perfect blend of luxury, comfort, and investment
+              potential. Our deep understanding of Kigali's real estate market, combined
+              with our commitment to excellence, makes us the trusted partner for those
+              seeking to invest in or experience the finest properties Rwanda has to offer.
             </p>
           </div>
         </div>
@@ -28,15 +28,14 @@ function AboutUs() {
       <main className="flex-grow">
         <div className="container mx-auto py-8 md:py-16 px-4">
           <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-
             <div className="flex border-b">
               {["mission", "team", "values"].map((tab) => (
                 <button
                   key={tab}
                   className={`flex-1 py-3 md:py-4 px-2 md:px-6 text-sm md:text-lg font-semibold transition-all duration-300 ${
                     activeTab === tab
-                      ? "bg-[#043873] text-white rounded-t-lg mx-1 md:mx-5"
-                      : "text-[#043873] hover:bg-gray-100 hover:text-[#043873]"
+                      ? "bg-[#001420] text-white rounded-t-lg mx-1 md:mx-5"
+                      : "text-[#001420] hover:bg-gray-100 hover:text-[#001420]"
                   }`}
                   onClick={() => setActiveTab(tab)}
                 >
@@ -44,7 +43,6 @@ function AboutUs() {
                 </button>
               ))}
             </div>
-
 
             <div className="p-4 md:p-8">
               {activeTab === "mission" && <MissionVision />}

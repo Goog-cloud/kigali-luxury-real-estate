@@ -129,7 +129,7 @@ const MiddleThree: React.FC = () => {
               {publicationCards.map((card, index) => (
                 <div
                   key={`${card.id}-${index}`}
-                  className="bg-[#043873] text-white shadow-lg rounded-lg p-6 text-left w-80 flex-shrink-0"
+                  className="bg-[#001420] text-white shadow-lg rounded-lg p-6 text-left w-80 flex-shrink-0"
                 >
                   <div className="text-4xl mb-4">"</div>
                   <p className="mb-8">{truncateContent(card.content)}</p>
@@ -157,7 +157,7 @@ const MiddleThree: React.FC = () => {
               {publicationCards.map((card, index) => (
                 <div
                   key={`${card.id}-duplicate-${index}`}
-                  className="bg-[#043873] text-white shadow-lg rounded-lg p-6 text-left w-80 flex-shrink-0"
+                  className="bg-[#001420] text-white shadow-lg rounded-lg p-6 text-left w-80 flex-shrink-0"
                 >
                   <div className="text-4xl mb-4">"</div>
                   <p className="mb-8">{truncateContent(card.content)}</p>
@@ -184,7 +184,7 @@ const MiddleThree: React.FC = () => {
         </div>
 
         <div className="p-4">
-          <button className="bg-[#043873] rounded-xl p-4 mt-2 font-back hover:bg-[#df4e10] hover:font-bold">
+          <button className="bg-[#001420] rounded-xl p-4 mt-2 font-back hover:bg-[#df4e10] hover:font-bold">
             <Link to="/publications" className="text-white hover:text-white">
               More publications <i className="fa-solid fa-arrow-right"></i>
             </Link>

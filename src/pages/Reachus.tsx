@@ -132,7 +132,7 @@ function Reachus() {
             >
               <div>
                 <h1 className="text-4xl font-bold">
-                  Get in <span className="text-[#043873]">touch</span>
+                  Get in <span className="text-[#001420]">touch</span>
                 </h1>
               </div>
               <form onSubmit={handleSubmit} className="space-y-4">
@@ -207,7 +207,7 @@ function Reachus() {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full bg-[#043873] text-white font-semibold py-2 px-4 rounded hover:bg-blue-900 transition disabled:opacity-50"
+                  className="w-full bg-[#001420] text-white font-semibold py-2 px-4 rounded hover:bg-blue-900 transition disabled:opacity-50"
                 >
                   {isSubmitting ? 'Sending...' : 'Submit'}
                 </button>

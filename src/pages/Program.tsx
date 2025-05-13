@@ -16,16 +16,16 @@ const photos = [food, Nutri1, Nutri2, Nutri3, Nutri4, Nutri5];
       <Header />
       <div className="font-sans text-gray-800">
         <nav className="bg-gray-50 p-4 flex justify-center space-x-6 border-b">
-          <a href="#" className="text-[#0872b3] hover:text-[#043873] text-sm md:text-base">
+          <a href="#" className="text-[#0872b3] hover:text-[#001420] text-sm md:text-base">
             Young Impact Associate
           </a>
-          <a href="#" className="text-[#0872b3] hover:text-[#043873] text-sm md:text-base">
+          <a href="#" className="text-[#0872b3] hover:text-[#001420] text-sm md:text-base">
             The Fortified Wholegrain Initiative
           </a>
         </nav>
 
         <header className="flex items-center justify-center bg-white p-8 text-center">
-          <h1 className="text-lg md:text-xl lg:text-2xl text-[#043873]">
+          <h1 className="text-lg md:text-xl lg:text-2xl text-[#001420]">
             Econometer Research Center advises governments and development
             partners in programme and strategy design and implementation.
           </h1>
@@ -43,10 +43,10 @@ const photos = [food, Nutri1, Nutri2, Nutri3, Nutri4, Nutri5];
         </section>
 
         <section className="p-8 bg-white">
-          <h2 className="text-2xl md:text-3xl text-[#043873] pb-12 pt-12">
+          <h2 className="text-2xl md:text-3xl text-[#001420] pb-12 pt-12">
             Young Impact Associate Programme
           </h2>
-          <p className="mt-4 text-base md:text-lg text-[#043873]">
+          <p className="mt-4 text-base md:text-lg text-[#001420]">
             The YIA fellowship is a program of Econometer Research Center work
             as an Impact Partner Organization (IPO) for The Mastercard
             Foundation in Rwanda. The Foundation aims to create 30 million
@@ -54,18 +54,18 @@ const photos = [food, Nutri1, Nutri2, Nutri3, Nutri4, Nutri5];
           </p>
 
           <div className="flex flex-col md:flex-row justify-between items-center gap-10 p-10">
-            <button className="flex bg-[#043873] items-center justify-center rounded w-full md:w-1/2 h-40 text-white ">
+            <button className="flex bg-[#001420] items-center justify-center rounded w-full md:w-1/2 h-40 text-white ">
               Our mission
             </button>
             <ul className="list-disc list-inside mt-4 md:mt-0">
               <li>
                 {" "}
-                <a href="#" className="text-[#043873] underline">
+                <a href="#" className="text-[#001420] underline">
                   The Young Impact Associate (YIA)
                 </a>{" "}
                 fellowship is a paid fellowship focused on laying the
                 foundations for a successful career in the field of
-                <a href="#" className="text-[#043873] underline">
+                <a href="#" className="text-[#001420] underline">
                   Monitoring, Evaluation and Learning (MEL).
                 </a>
               </li>
@@ -81,7 +81,7 @@ const photos = [food, Nutri1, Nutri2, Nutri3, Nutri4, Nutri5];
 
       <div className="font-sans text-gray-800 p-8 bg-gray-50">
         <section className="mb-12 text-left">
-          <h2 className="text-2xl md:text-3xl font-bold text-[#043873]">
+          <h2 className="text-2xl md:text-3xl font-bold text-[#001420]">
             Fortified Wholegrain Initiative
           </h2>
           <p className="mt-4 text-base md:text-lg">
@@ -91,7 +91,7 @@ const photos = [food, Nutri1, Nutri2, Nutri3, Nutri4, Nutri5];
         </section>
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-10 p-10">
-          <button className="flex bg-[#043873] items-center justify-center rounded w-full md:w-1/2 h-40 text-white ">
+          <button className="flex bg-[#001420] items-center justify-center rounded w-full md:w-1/2 h-40 text-white ">
             Our mission
           </button>
           <ul className="list-disc list-inside mt-4 md:mt-0">

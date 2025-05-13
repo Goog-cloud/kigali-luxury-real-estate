@@ -157,7 +157,7 @@ const PageHeader: React.FC = () => {
                         {item.label}
                       </button>
                       {servicesDropdownOpen && (
-                        <ul className="absolute left-0 mt-2 py-2 w-48 bg-[#043873] rounded-md shadow-xl">
+                        <ul className="absolute left-0 mt-2 py-2 w-48 bg-[#001420] rounded-md shadow-xl">
                           {item.subItems.map((subItem) => (
                             <li key={subItem.to}>
                               <NavLink
@@ -202,7 +202,7 @@ const PageHeader: React.FC = () => {
       </header>
 
       <div
-        className={`fixed top-0 left-0 w-full h-screen bg-[#043873] z-40 transform transition-transform duration-300 ease-in-out ${
+        className={`fixed top-0 left-0 w-full h-screen bg-[#001420] z-40 transform transition-transform duration-300 ease-in-out ${
           menuOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >

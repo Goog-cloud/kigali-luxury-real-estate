@@ -9,7 +9,7 @@ const MarketResearch: React.FC = () => {
       <div className="space-y-10">
         <section className="bg-gray-100 py-12">
           <div className="flex max-w-6xl mx-auto px-4 gap-10 md:px-0 flex-col md:flex-row">
-            <h2 className="text-lg md:text-xl lg:text-2xl text-[#043873]">
+            <h2 className="text-lg md:text-xl lg:text-2xl text-[#001420]">
               At ERC, we use a market systems approach to address problems by
               identifying root causes, not just symptoms, through the strategic
               use of data
@@ -31,7 +31,7 @@ const MarketResearch: React.FC = () => {
         <section className="bg-white py-12">
           <div className="max-w-6xl mx-auto px-4 md:px-0 grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="flex text-orange-500 bg-[#043873]  rounded text-center items-center text-sm md:text-xl lg:text-2xl p-4">
+              <h3 className="flex text-orange-500 bg-[#001420]  rounded text-center items-center text-sm md:text-xl lg:text-2xl p-4">
               Econometer Research Center can help your business:
             </h3>
             </div>
@@ -56,7 +56,7 @@ const MarketResearch: React.FC = () => {
 
         <section className="text-gray-800 py-12">
           <div className="max-w-6xl mx-auto px-4 md:px-0 grid grid-cols-1 md:grid-cols-3 gap-8">
-            <h3 className="flex bg-[#043873] rounded text-center items-center text-lg md:text-xl lg:text-2xl text-orange-500   p-4">
+            <h3 className="flex bg-[#001420] rounded text-center items-center text-lg md:text-xl lg:text-2xl text-orange-500   p-4">
               Our market research services include:
             </h3>
             <ul className="list-disc list-inside mt-4 space-y-2 text-sm md:text-base lg:text-lg">

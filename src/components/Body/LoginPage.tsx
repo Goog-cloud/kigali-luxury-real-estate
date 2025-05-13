@@ -152,7 +152,7 @@ const LoginComponent = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-[#043873] gap-12 p-10">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-[#001420] gap-12 p-10">
       <ToastContainer
         position="top-right"
         autoClose={5000}

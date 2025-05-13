@@ -197,7 +197,7 @@ const MiddleTwo: React.FC = () => {
       </div>
 
       <div
-        className={`absolute bottom-0 left-0 right-0 bg-[#043873] transition-all duration-1000 ease-out delay-1000 ${
+        className={`absolute bottom-0 left-0 right-0 bg-[#001420] transition-all duration-1000 ease-out delay-1000 ${
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20"
         }`}
         style={{ height: "300px", zIndex: 1 }}

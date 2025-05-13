@@ -148,7 +148,7 @@ function Publications() {
             {currentItems.map((doc, index) => (
               <div
                 key={index}
-                className="bg-[#043873] hover:bg-orange-600 hover:scale-105 duration-300 border rounded-lg shadow-lg p-4"
+                className="bg-[#001420] hover:bg-orange-600 hover:scale-105 duration-300 border rounded-lg shadow-lg p-4"
               >
                 <div className="aspect-w-16 aspect-h-9 mb-2">
                   <img
@@ -185,7 +185,7 @@ function Publications() {
             <button
               onClick={() => handlePageChange(currentPage - 1)}
               disabled={currentPage === 1}
-              className="mx-2 p-2 rounded-full bg-[#043873] hover:bg-blue-900"
+              className="mx-2 p-2 rounded-full bg-[#001420] hover:bg-blue-900"
               aria-label="Previous page"
             >
               <i className="fa-solid fa-arrow-left text-white"></i>
@@ -198,7 +198,7 @@ function Publications() {
                 }
                 className={`mx-1 w-8 h-8 flex items-center justify-center rounded-full ${
                   currentPage === page
-                    ? "bg-[#043873] text-white"
+                    ? "bg-[#001420] text-white"
                     : "bg-gray-200"
                 }`}
                 disabled={page === "..."}
@@ -209,7 +209,7 @@ function Publications() {
             <button
               onClick={() => handlePageChange(currentPage + 1)}
               disabled={currentPage === totalPages}
-              className="mx-2 p-2 rounded-full bg-[#043873] hover:bg-blue-900"
+              className="mx-2 p-2 rounded-full bg-[#001420] hover:bg-blue-900"
               aria-label="Next page"
             >
               <i className="fa-solid fa-arrow-right text-white"></i>

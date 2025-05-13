@@ -48,7 +48,7 @@ const organizations: Organization[] = [
 const OrganizationGrid: React.FC = () => {
   return (
     <div className="max-w-6xl mx-auto px-4 md:px-0">
-      <div className="grid grid-cols-1 md:grid-cols-3 text-[#043873]">
+      <div className="grid grid-cols-1 md:grid-cols-3 text-[#001420]">
         <h2 className="text-lg md:text-xl font-semibold mb-6 sm:text-sm lg:text-lg">
           Our Partners:
         </h2>

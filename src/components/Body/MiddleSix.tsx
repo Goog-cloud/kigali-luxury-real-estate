@@ -221,7 +221,7 @@ const MiddleSix: React.FC = () => {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="w-full bg-[#043873] text-white py-3 md:py-4 rounded hover:bg-blue-700 transition duration-300 disabled:opacity-50 text-base md:text-lg font-semibold"
+            className="w-full bg-[#001420] text-white py-3 md:py-4 rounded hover:bg-blue-700 transition duration-300 disabled:opacity-50 text-base md:text-lg font-semibold"
           >
             {isSubmitting ? "Booking..." : "Book Appointment"}
           </button>
@@ -246,7 +246,7 @@ const MiddleSix: React.FC = () => {
             </div>
             <button
               onClick={() => navigate("/reachus")}
-              className="bg-[#043873] text-white px-6 py-3 rounded hover:bg-blue-700 transition duration-300 text-sm md:text-base font-semibold whitespace-nowrap"
+              className="bg-[#001420] text-white px-6 py-3 rounded hover:bg-blue-700 transition duration-300 text-sm md:text-base font-semibold whitespace-nowrap"
             >
               Contact Us
             </button>

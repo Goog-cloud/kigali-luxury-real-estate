@@ -98,7 +98,7 @@ const HouseCards: React.FC = () => {
                   alt={house.title}
                   className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-300"
                 />
-                <div className="absolute top-4 right-4 bg-blue-600 text-white px-3 py-1 rounded-full">
+                <div className="absolute top-4 right-4 bg-[#043873] text-white px-3 py-1 rounded-full">
                   {formatPrice(house.price)}
                 </div>
               </div>
@@ -130,12 +130,18 @@ const HouseCards: React.FC = () => {
 
                 <p className="text-gray-600 mb-4">{house.description}</p>
 
-                <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors duration-300">
+                <button className="w-full bg-[#043873] text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors duration-300">
                   View Details
                 </button>
               </div>
             </motion.div>
           ))}
+        </div>
+        
+        <div className="text-center mt-12">
+          <button className="bg-[#043873] text-white py-3 px-8 rounded-lg hover:bg-blue-700 transition-colors duration-300 text-lg font-semibold">
+            View All Houses
+          </button>
         </div>
       </div>
     </section>

@@ -62,7 +62,7 @@ function PublicationDetail() {
             className="prose max-w-none"
             dangerouslySetInnerHTML={{ __html: publication.content }}
           />
-          <a href={publication.link} target="_blank" rel="noopener noreferrer" className="text-[#043873] hover:text-blue-700 cursor-pointer pt-16">Visit the publication</a>
+          <a href={publication.link} target="_blank" rel="noopener noreferrer" className="text-[#001420] hover:text-blue-700 cursor-pointer pt-16">Visit the publication</a>
         </div>
       </main>
       <Footer />
